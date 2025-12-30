@@ -1,0 +1,167 @@
+# Mini Quiz
+
+
+import random
+
+score = 0
+
+# Question 1
+question = "What is 5 * 6?"
+correct = "30"
+options = ["11", "50", "60", correct]
+random.shuffle(options)
+print(question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 2
+question = "What is 12 / 4?"
+correct = "3"
+options = ["2", "4", "6", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 3
+question = "What is 15 - 7?"
+correct = "8"
+options = ["7", "10", "9", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 4
+question = "What is 7 + 8?"
+correct = "15"
+options = ["14", "16", "17", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 5
+question = "What is 9 * 3?"
+correct = "27"
+options = ["26", "24", "30", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 6
+question = "What is 10 + 5?"
+correct = "15"
+options = ["14", "16", "12", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 7
+question = "What is 8 / 2?"
+correct = "4"
+options = ["2", "3", "5", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 8
+question = "What is 6 * 7?"
+correct = "42"
+options = ["36", "40", "48", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 9
+question = "What is 14 - 5?"
+correct = "9"
+options = ["8", "10", "7", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Question 10
+question = "What is 3 * 8?"
+correct = "24"
+options = ["21", "26", "28", correct]
+random.shuffle(options)
+print("\n" + question)
+for i, option in enumerate(options, 1):
+    print(f"{i}) {option}")
+answer = int(input("Choose the correct option number: "))
+if options[answer-1] == correct:
+    print("CORRECT")
+    score += 1
+else:
+    print("INCORRECT")
+
+# Final Score
+print(f"\nYOU SCORED {score} OUT OF 10")
+if score == 10:
+    print("EXCELLENT WORK!")
+elif score >= 8:
+    print("GREAT JOB!")
+elif score >= 5:
+    print("GOOD EFFORT!")
+else:
+    print("STUDY HARDER NEXT TIME!")
